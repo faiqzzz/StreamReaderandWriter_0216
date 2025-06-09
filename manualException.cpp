@@ -14,7 +14,11 @@ int main()
         // blok ini akan di ekseskusi
         cout << "default Pengecualian diexsekusi" << endl;
     }
-    
+    catch (...)
+    {
+         /*jika selain interger maka block ini akan di eksekusi*/
+         cout << "default Pengecualian diexekusi" << endl;
+    }
     
     return 0;
 
