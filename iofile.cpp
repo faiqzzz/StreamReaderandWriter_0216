@@ -28,4 +28,6 @@ int main()
     }
 // selesai dalam menulis sekarang tutup file nya
 outfile.close();
+
+
 }
