@@ -20,5 +20,8 @@ int main()
         cout << "- ";
         // mendapatkan setiap karakter dalam satu baris
         getline(cin, baris);
+        // Loop akan berhenti jika anda memasukkan karakter q
+        if (baris == "q")
+            break;
         
 }
