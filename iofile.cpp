@@ -35,6 +35,11 @@ ifstream infile;
 infile.open("contohfile.txt");
 
 cout << endl;
-    << ">= Membuka dan membaca file" << endl;
+     << ">= Membuka dan membaca file" << endl;
+// jika file ada maka
+if (infile.is_open())
+    {
+        
 
+    }
 }
